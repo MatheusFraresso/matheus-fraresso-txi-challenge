@@ -1,6 +1,6 @@
 "use server";
 
-import PokemonList from "@/components/pokemon/pokemon-list";
+import PokemonList from "@/app/components/pokemon/pokemon-list";
 import { fetchPokemons } from "@/http/Pokemon.http";
 import { Suspense } from "react";
 

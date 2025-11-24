@@ -6,7 +6,7 @@ const argv = require("minimist")(process.argv.slice(2), {
   alias: { metaDir: "m", db: "d" },
   default: {
     metaDir: "./scripts/data/images/meta",
-    db: "./db/pokedex.sqlite",
+    db: "./_database/pokedex.sqlite",
   },
 });
 
@@ -27,14 +27,8 @@ function initDb(dbPath) {
 
     CREATE TABLE IF NOT EXISTS pokemon (
       id INTEGER PRIMARY KEY,
-      name TEXT NOT NULL,
-      types TEXT NOT NULL,
-      meta_json TEXT,
       image_blob BLOB NOT NULL,
-      image_mime TEXT NOT NULL,
-      thumb_blob BLOB,
-      thumb_mime TEXT,
-      checksum TEXT,
+      image_mime TEXT,
       image_size INTEGER,
       created_at TEXT DEFAULT CURRENT_TIMESTAMP
     );
@@ -72,7 +66,6 @@ async function processMetaFile(db, metaPath) {
   const id = meta.id;
   const name = meta.name;
   const origPath = meta.saved_original;
-  const thumbPath = meta.saved_thumb;
 
   if (!id || !name) {
     console.warn(`Skipping meta without id/name: ${metaPath}`);
@@ -87,51 +80,19 @@ async function processMetaFile(db, metaPath) {
   const imageBuf = fs.readFileSync(origPath);
   const imageMime = await detectMimeFromBuffer(imageBuf);
 
-  let thumbBuf = null;
-  let thumbMime = null;
-  if (thumbPath && fs.existsSync(thumbPath)) {
-    try {
-      thumbBuf = fs.readFileSync(thumbPath);
-      thumbMime = await detectMimeFromBuffer(thumbBuf);
-    } catch (err) {
-      console.warn(`Failed reading thumb for #${id} ${name}: ${err.message}`);
-      thumbBuf = null;
-      thumbMime = null;
-    }
-  }
-
-  const checksum = meta.checksum || null;
-  const types = Array.isArray(meta.types)
-    ? meta.types
-    : meta.types
-    ? JSON.parse(meta.types)
-    : [];
-
   const insert = db.prepare(`
-    INSERT INTO pokemon (id, name, types, meta_json, image_blob, image_mime, thumb_blob, thumb_mime, checksum, image_size)
-    VALUES (@id,@name,@types,@meta_json,@image_blob,@image_mime,@thumb_blob,@thumb_mime,@checksum,@image_size)
+    INSERT INTO pokemon (id, image_blob, image_mime, image_size)
+    VALUES (@id,@image_blob,@image_mime,@image_size)
     ON CONFLICT(id) DO UPDATE SET
-      name = excluded.name,
-      types = excluded.types,
-      meta_json = excluded.meta_json,
       image_blob = excluded.image_blob,
       image_mime = excluded.image_mime,
-      thumb_blob = excluded.thumb_blob,
-      thumb_mime = excluded.thumb_mime,
-      checksum = excluded.checksum,
       image_size = excluded.image_size
   `);
 
   insert.run({
     id,
-    name,
-    types: JSON.stringify(types),
-    meta_json: JSON.stringify(meta),
     image_blob: imageBuf,
     image_mime: imageMime,
-    thumb_blob: thumbBuf || null,
-    thumb_mime: thumbMime || null,
-    checksum,
     image_size: imageBuf.length,
   });
 
