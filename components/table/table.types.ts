@@ -1,5 +1,5 @@
-import Pagination from "@/interfaces/pagination";
-import { ReactNode } from "react";
+import Pagination from "@/contracts/pagination";
+import { ReactElement, ReactNode } from "react";
 
 /**
  * Obtém o valor de uma propriedade aninhada usando um caminho em string.
@@ -12,7 +12,7 @@ import { ReactNode } from "react";
 export declare function getValueByPath(obj: any, path?: string): any;
 
 /**
- * Retorna as chaves de um objeto, incluindo propriedades aninhadas até certo nível.
+ * Retorna as keys de um objeto, incluindo propriedades aninhadas até certo nível.
  *
  * @template T - Objeto base.
  * @template Depth - Nível máximo de profundidade permitido (default: 2).
@@ -38,16 +38,16 @@ type Decrement = [never, 0, 1, 2, 3, 4, 5];
 /**
  * Representa uma definição de coluna da tabela.
  *
- * Você pode usar uma chave direta do objeto (ex: `"name"`) ou uma função
+ * Você pode usar uma key direta do objeto (ex: `"name"`) ou uma função
  * de renderização para controlar o conteúdo da célula.
  *
  * @template T - Tipo do item de dados exibido na tabela.
  *
  * @example
- * // Exemplo simples com chaves diretas
+ * // Exemplo simples com keys diretas
  * const columns = [
- *   { label: "Nome", chave: "name" },
- *   { label: "Email", chave: "email" },
+ *   { label: "Nome", key: "name" },
+ *   { label: "Email", key: "email" },
  * ];
  *
  * @example
@@ -67,16 +67,24 @@ export type ColumnDef<T extends object> =
   | {
       /** Texto exibido no cabeçalho da coluna. */
       label: string;
-      /** Caminho até a chave do objeto (suporta acesso aninhado: "endereco.cidade"). */
-      chave: NestedKeyOf<T>;
+      /** Caminho até a key do objeto (suporta acesso aninhado: "endereco.cidade"). */
+      key: NestedKeyOf<T>;
     }
   | {
       /** Texto exibido no cabeçalho da coluna. */
       label: string;
-      /** Caminho até a chave do objeto (opcional quando `callback` é usado). */
-      chave?: NestedKeyOf<T>;
+      /** Caminho até a key do objeto (opcional quando `callback` é usado). */
+      key?: NestedKeyOf<T>;
       /** Função de renderização customizada para esta coluna. */
       callback: (item: T) => ReactNode;
+    }
+  | {
+      /** Texto exibido no cabeçalho da coluna. */
+      label: string;
+      /** Caminho até a key do objeto (opcional quando `callback` é usado). */
+      key?: NestedKeyOf<T>;
+      /** Função de renderização customizada para esta coluna. */
+      renderer: Element;
     };
 
 /**
@@ -275,8 +283,8 @@ export interface PaginationProps {
  * };
  *
  * const columns = [
- *   { label: "Nome", chave: "nome" },
- *   { label: "Email", chave: "email" },
+ *   { label: "Nome", key: "nome" },
+ *   { label: "Email", key: "email" },
  *   {
  *     label: "Status",
  *     callback: (cliente) => (

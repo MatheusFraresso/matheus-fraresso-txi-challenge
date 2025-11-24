@@ -1,11 +1,12 @@
 "use client";
+
 import { useSearchParams } from "next/navigation";
 import { ReactNode, useRef, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { NestedKeyOf, TableProps } from "./table.types";
-import { Option } from "@/interfaces/option.interface";
+import { Option } from "@/contracts/option.interface";
 import { Pagination as PaginationComponent } from "./pagination";
-import Pagination from "@/interfaces/pagination";
+import Pagination from "@/contracts/pagination";
 import Select from "../form/select";
 
 function getValueByPath(obj: any, path?: string) {
@@ -80,11 +81,11 @@ export default function Table<
 
   function renderCell<T extends object>(
     item: T,
-    chave?: NestedKeyOf<T>,
+    key?: NestedKeyOf<T>,
     callback?: (item: T) => ReactNode
   ): ReactNode {
-    if (!chave && !callback) return <></>;
-    if (!callback) return getValueByPath(item, chave) as ReactNode;
+    if (!key && !callback) return <></>;
+    if (!callback) return getValueByPath(item, key) as ReactNode;
     return callback(item) as ReactNode;
   }
 
@@ -104,7 +105,7 @@ export default function Table<
               {filters.map((filter, index) => (
                 <div className="w-full max-w-[200px]" key={index}>
                   <label
-                    className="block text-sm font-medium text-neutral-900 mb-1 whitespace-nowrap line-clamp-1 truncate"
+                    className="block font-se text-neutral-900 mb-1 whitespace-nowrap line-clamp-1 truncate"
                     title={filter.label}
                   >
                     {filter.label}
@@ -160,13 +161,13 @@ export default function Table<
                   clearFilters?.();
                 }}
               >
-                Limpar
+                Clear
               </button>
               <button
                 type="submit"
-                className="bg-primary-main hover:bg-orange-600 text-white rounded-full px-6"
+                className="bg-blue-500 hover:bg-blue-800 text-white rounded-full px-6 cursor-pointer"
               >
-                Filtrar
+                Filter
               </button>
             </div>
           </div>
@@ -278,7 +279,7 @@ export default function Table<
                     >
                       {renderCell(
                         item,
-                        column.chave,
+                        column.key,
                         "callback" in column ? column.callback : undefined
                       )}
                     </td>

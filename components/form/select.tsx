@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 import { useCheckClickOutside } from "@/hooks/useCheckClickOutside";
 import Input from "../form/input";
-import { Option } from "@/interfaces/option.interface";
+import { Option } from "@/contracts/option.interface";
 
 interface SelectProps<T = undefined> {
   placeholder?: string;
