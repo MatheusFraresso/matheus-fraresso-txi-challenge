@@ -1,0 +1,11 @@
+{
+  "id": 16,
+  "name": "pidgey",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/016_pidgey.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/016_pidgey.webp",
+  "image_mime": "image/png",
+  "checksum": "cabe3212d06ce9c59184b84cbf2bcb17396f441d7c857243253502247e637758",
+  "bytes": 145917,
+  "timestamp": "2025-11-24T17:30:59.782Z"
+}

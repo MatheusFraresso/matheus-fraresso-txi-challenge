@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "name": "charmander",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/004_charmander.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/004_charmander.webp",
+  "image_mime": "image/png",
+  "checksum": "0c8e36e321cbd6578d0b669324edf6cb819f8e510dbac43cee22c4221db80b4d",
+  "bytes": 137817,
+  "timestamp": "2025-11-24T17:30:59.193Z"
+}

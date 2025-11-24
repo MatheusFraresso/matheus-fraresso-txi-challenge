@@ -1,0 +1,11 @@
+{
+  "id": 130,
+  "name": "gyarados",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/130_gyarados.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/130_gyarados.webp",
+  "image_mime": "image/png",
+  "checksum": "41d17760b81321cc7a3fb2cb1568d3c33010e892b687eeacb3738ba307071f8b",
+  "bytes": 146784,
+  "timestamp": "2025-11-24T17:31:04.802Z"
+}

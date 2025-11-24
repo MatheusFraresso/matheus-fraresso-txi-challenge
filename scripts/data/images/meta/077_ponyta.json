@@ -1,0 +1,11 @@
+{
+  "id": 77,
+  "name": "ponyta",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/077_ponyta.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/077_ponyta.webp",
+  "image_mime": "image/png",
+  "checksum": "a4e14c8e403f13cdc307d64918c090ecd112cd9e50fe44ac15fa6b10d342a523",
+  "bytes": 125214,
+  "timestamp": "2025-11-24T17:31:02.366Z"
+}

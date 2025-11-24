@@ -1,0 +1,11 @@
+{
+  "id": 90,
+  "name": "shellder",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/090_shellder.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/090_shellder.webp",
+  "image_mime": "image/png",
+  "checksum": "d1051fa793cf81c8a88935a79da2f4254f8b703e3299f3b20de1ad5290193452",
+  "bytes": 175387,
+  "timestamp": "2025-11-24T17:31:03.032Z"
+}

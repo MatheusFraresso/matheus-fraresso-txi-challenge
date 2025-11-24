@@ -1,0 +1,11 @@
+{
+  "id": 120,
+  "name": "staryu",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/120_staryu.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/120_staryu.webp",
+  "image_mime": "image/png",
+  "checksum": "c6d201593a95accb563277077dab8a6dfe3b84eb8a51eef42eb717aae9826e4f",
+  "bytes": 157316,
+  "timestamp": "2025-11-24T17:31:04.380Z"
+}

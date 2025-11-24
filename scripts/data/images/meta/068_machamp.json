@@ -1,0 +1,11 @@
+{
+  "id": 68,
+  "name": "machamp",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/068_machamp.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/068_machamp.webp",
+  "image_mime": "image/png",
+  "checksum": "5d124f441d6690e19de8685e30b1e5d375f2fd6dd91be5cfd164dacf6853f7e6",
+  "bytes": 151393,
+  "timestamp": "2025-11-24T17:31:01.945Z"
+}

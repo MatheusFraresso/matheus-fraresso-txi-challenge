@@ -1,0 +1,11 @@
+{
+  "id": 128,
+  "name": "tauros",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/128_tauros.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/128_tauros.webp",
+  "image_mime": "image/png",
+  "checksum": "04ba885a5e71dc1e6970e7a83a098464e3fa29b83502631772a0f709662887e4",
+  "bytes": 129530,
+  "timestamp": "2025-11-24T17:31:04.701Z"
+}

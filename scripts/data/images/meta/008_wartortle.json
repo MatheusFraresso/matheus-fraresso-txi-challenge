@@ -1,0 +1,11 @@
+{
+  "id": 8,
+  "name": "wartortle",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/008_wartortle.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/008_wartortle.webp",
+  "image_mime": "image/png",
+  "checksum": "5fc6739ca9f7c5c0eaf0a55761239ab5ebb4982575b9a6f1f29dd3286c430f52",
+  "bytes": 179754,
+  "timestamp": "2025-11-24T17:30:59.413Z"
+}

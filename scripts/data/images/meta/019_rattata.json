@@ -1,0 +1,11 @@
+{
+  "id": 19,
+  "name": "rattata",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/019_rattata.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/019_rattata.webp",
+  "image_mime": "image/png",
+  "checksum": "6e8702f59cde037612c587c0bad7a38bca3b3560af722c036039d54a16d51d6f",
+  "bytes": 125067,
+  "timestamp": "2025-11-24T17:30:59.859Z"
+}

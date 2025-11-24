@@ -1,0 +1,11 @@
+{
+  "id": 7,
+  "name": "squirtle",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/007_squirtle.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/007_squirtle.webp",
+  "image_mime": "image/png",
+  "checksum": "37cda7bf8ad6f4252d539aed3bd989a85c8cb0f8e9d815be12bad08c16f31fe9",
+  "bytes": 155045,
+  "timestamp": "2025-11-24T17:30:59.361Z"
+}

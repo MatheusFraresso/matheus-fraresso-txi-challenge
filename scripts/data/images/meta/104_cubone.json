@@ -1,0 +1,11 @@
+{
+  "id": 104,
+  "name": "cubone",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/104_cubone.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/104_cubone.webp",
+  "image_mime": "image/png",
+  "checksum": "88ead79f1c78f8dec797b7441ea81cfb736ec75faa3aa239d9990fdd908dffb9",
+  "bytes": 156699,
+  "timestamp": "2025-11-24T17:31:03.778Z"
+}

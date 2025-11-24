@@ -1,0 +1,11 @@
+{
+  "id": 27,
+  "name": "sandshrew",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/027_sandshrew.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/027_sandshrew.webp",
+  "image_mime": "image/png",
+  "checksum": "6d1a14b1b658a37e766951d75636fc96b95431c4faca96deb6b6f85dfa5fd31d",
+  "bytes": 173758,
+  "timestamp": "2025-11-24T17:31:00.168Z"
+}

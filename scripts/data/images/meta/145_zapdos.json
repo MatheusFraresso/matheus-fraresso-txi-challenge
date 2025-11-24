@@ -1,0 +1,11 @@
+{
+  "id": 145,
+  "name": "zapdos",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/145_zapdos.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/145_zapdos.webp",
+  "image_mime": "image/png",
+  "checksum": "6435d62ab354ac4bfc94eaf8dda48a4ea3cb24f5e64d48cab9dafd5194f458cc",
+  "bytes": 110704,
+  "timestamp": "2025-11-24T17:31:05.346Z"
+}

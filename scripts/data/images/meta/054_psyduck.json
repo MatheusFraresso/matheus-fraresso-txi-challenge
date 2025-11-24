@@ -1,0 +1,11 @@
+{
+  "id": 54,
+  "name": "psyduck",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/054_psyduck.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/054_psyduck.webp",
+  "image_mime": "image/png",
+  "checksum": "87110a75d9d9c67e0d82b912abcea3c25a96bc394e366812c65639ea1bacdf40",
+  "bytes": 117239,
+  "timestamp": "2025-11-24T17:31:01.436Z"
+}

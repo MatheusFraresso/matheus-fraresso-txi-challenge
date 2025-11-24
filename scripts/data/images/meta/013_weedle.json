@@ -1,0 +1,11 @@
+{
+  "id": 13,
+  "name": "weedle",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/013_weedle.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/013_weedle.webp",
+  "image_mime": "image/png",
+  "checksum": "d8cf2e85a0b1b741aedab01cc67c13a4a8dc502e9719a1954228f8346f78f1cd",
+  "bytes": 108372,
+  "timestamp": "2025-11-24T17:30:59.627Z"
+}

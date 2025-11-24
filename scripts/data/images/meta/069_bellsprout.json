@@ -1,0 +1,11 @@
+{
+  "id": 69,
+  "name": "bellsprout",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/069_bellsprout.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/069_bellsprout.webp",
+  "image_mime": "image/png",
+  "checksum": "9e1a107b671e88f605f0c263016b993ce71a3b482dd927cc554c0e938b87165c",
+  "bytes": 99010,
+  "timestamp": "2025-11-24T17:31:02.001Z"
+}

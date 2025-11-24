@@ -1,0 +1,11 @@
+{
+  "id": 6,
+  "name": "charizard",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/006_charizard.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/006_charizard.webp",
+  "image_mime": "image/png",
+  "checksum": "b6d5b8ee9fb05dc6f53294b2cae660dec770b92762cdb19d16bcbd679e1ba43a",
+  "bytes": 144568,
+  "timestamp": "2025-11-24T17:30:59.492Z"
+}

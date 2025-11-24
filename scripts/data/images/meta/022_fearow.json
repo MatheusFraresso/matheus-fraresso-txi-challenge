@@ -1,0 +1,11 @@
+{
+  "id": 22,
+  "name": "fearow",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/022_fearow.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/022_fearow.webp",
+  "image_mime": "image/png",
+  "checksum": "e34e7a7e619118ee98ece2a95a2d1184bf745b6ee16090dc0a24d6c93b4351d2",
+  "bytes": 149452,
+  "timestamp": "2025-11-24T17:30:59.970Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 65,
+  "name": "alakazam",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/065_alakazam.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/065_alakazam.webp",
+  "image_mime": "image/png",
+  "checksum": "8f1dfebe7855bf0838dc4110629b01a8862370373cabe527adf3f979bc4fa1e0",
+  "bytes": 162890,
+  "timestamp": "2025-11-24T17:31:01.825Z"
+}

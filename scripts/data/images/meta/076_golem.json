@@ -1,0 +1,11 @@
+{
+  "id": 76,
+  "name": "golem",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/076_golem.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/076_golem.webp",
+  "image_mime": "image/png",
+  "checksum": "c9738e2d60f5df047e9fc10d2ebf2a4b8b30bfe6de35d5385881f073e1f9d5a0",
+  "bytes": 179897,
+  "timestamp": "2025-11-24T17:31:02.356Z"
+}

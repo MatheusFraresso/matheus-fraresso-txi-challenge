@@ -1,0 +1,11 @@
+{
+  "id": 23,
+  "name": "ekans",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/023_ekans.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/023_ekans.webp",
+  "image_mime": "image/png",
+  "checksum": "00d8d5e6ec30c6f62622bfd66eeb14cb3683c7626c5f14ec9a50ae231798ac3d",
+  "bytes": 191869,
+  "timestamp": "2025-11-24T17:30:59.986Z"
+}

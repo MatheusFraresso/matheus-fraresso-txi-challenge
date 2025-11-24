@@ -1,0 +1,11 @@
+{
+  "id": 24,
+  "name": "arbok",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/024_arbok.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/024_arbok.webp",
+  "image_mime": "image/png",
+  "checksum": "f1e38593fba1de6e6db3d5db819f1b851307f342abb819f9c2ebfbbea9b93d42",
+  "bytes": 181492,
+  "timestamp": "2025-11-24T17:31:00.124Z"
+}

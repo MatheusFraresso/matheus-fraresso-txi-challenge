@@ -1,0 +1,11 @@
+{
+  "id": 56,
+  "name": "mankey",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/056_mankey.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/056_mankey.webp",
+  "image_mime": "image/png",
+  "checksum": "e9b4fcec480f05a61e2e8b9a9f6bd930c3994ac9680da95f4bd309792a327b08",
+  "bytes": 101437,
+  "timestamp": "2025-11-24T17:31:01.508Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 45,
+  "name": "vileplume",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/045_vileplume.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/045_vileplume.webp",
+  "image_mime": "image/png",
+  "checksum": "9c2b9e9a3b91e2400f6e54165d4dcdedf6650f85fcdf552a52d8d68a2129abb1",
+  "bytes": 155232,
+  "timestamp": "2025-11-24T17:31:01.035Z"
+}

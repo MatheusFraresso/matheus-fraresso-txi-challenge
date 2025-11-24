@@ -1,0 +1,11 @@
+{
+  "id": 5,
+  "name": "charmeleon",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/005_charmeleon.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/005_charmeleon.webp",
+  "image_mime": "image/png",
+  "checksum": "6de10f11330f19b507343b06e17b1cc9d650f86de2a0eb962c24b07d19f5be6c",
+  "bytes": 130334,
+  "timestamp": "2025-11-24T17:30:59.327Z"
+}

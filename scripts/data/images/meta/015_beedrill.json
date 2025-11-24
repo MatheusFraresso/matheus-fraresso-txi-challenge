@@ -1,0 +1,11 @@
+{
+  "id": 15,
+  "name": "beedrill",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/015_beedrill.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/015_beedrill.webp",
+  "image_mime": "image/png",
+  "checksum": "87bec9bd0348a95d7b108fb00737c48b3315d51c335b31ec89a471e21c1a1016",
+  "bytes": 146566,
+  "timestamp": "2025-11-24T17:30:59.719Z"
+}

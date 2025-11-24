@@ -1,0 +1,11 @@
+{
+  "id": 61,
+  "name": "poliwhirl",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/061_poliwhirl.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/061_poliwhirl.webp",
+  "image_mime": "image/png",
+  "checksum": "06f1cf555b609f982d61f323323c71fa4e3c8f5de75460f167a63649446ad7b4",
+  "bytes": 150225,
+  "timestamp": "2025-11-24T17:31:01.668Z"
+}

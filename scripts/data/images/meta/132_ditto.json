@@ -1,0 +1,11 @@
+{
+  "id": 132,
+  "name": "ditto",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/132_ditto.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/132_ditto.webp",
+  "image_mime": "image/png",
+  "checksum": "5f7be2f22d06658a52b4e863a22e37d8904e539d9d8e23f15d4ea869b095e21f",
+  "bytes": 129274,
+  "timestamp": "2025-11-24T17:31:04.860Z"
+}

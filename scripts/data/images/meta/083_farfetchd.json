@@ -1,0 +1,11 @@
+{
+  "id": 83,
+  "name": "farfetchd",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/083_farfetchd.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/083_farfetchd.webp",
+  "image_mime": "image/png",
+  "checksum": "19cb4412f5c6dd4b24e22b9d3286c27c47831a635564ed6b49aa5b8f421a4cbf",
+  "bytes": 141176,
+  "timestamp": "2025-11-24T17:31:02.624Z"
+}

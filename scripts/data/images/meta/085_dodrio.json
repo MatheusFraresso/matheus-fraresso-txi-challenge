@@ -1,0 +1,11 @@
+{
+  "id": 85,
+  "name": "dodrio",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/085_dodrio.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/085_dodrio.webp",
+  "image_mime": "image/png",
+  "checksum": "87306fdddb9c21e7aec938743076db2b8192b5bbeaab40936038b6756e8933f2",
+  "bytes": 119581,
+  "timestamp": "2025-11-24T17:31:02.880Z"
+}

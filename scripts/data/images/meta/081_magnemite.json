@@ -1,0 +1,11 @@
+{
+  "id": 81,
+  "name": "magnemite",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/081_magnemite.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/081_magnemite.webp",
+  "image_mime": "image/png",
+  "checksum": "dd5162b1fca0be482896e4aec409bd7979457f151bc3fde48b33fbda1837f231",
+  "bytes": 96595,
+  "timestamp": "2025-11-24T17:31:02.628Z"
+}

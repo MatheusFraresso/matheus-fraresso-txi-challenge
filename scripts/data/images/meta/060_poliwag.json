@@ -1,0 +1,11 @@
+{
+  "id": 60,
+  "name": "poliwag",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/060_poliwag.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/060_poliwag.webp",
+  "image_mime": "image/png",
+  "checksum": "cdec53c7b6558877cb600b4590206ed81c21dbbb8c7ded56791ff0bbc77d8d3a",
+  "bytes": 133801,
+  "timestamp": "2025-11-24T17:31:01.647Z"
+}

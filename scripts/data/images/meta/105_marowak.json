@@ -1,0 +1,11 @@
+{
+  "id": 105,
+  "name": "marowak",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/105_marowak.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/105_marowak.webp",
+  "image_mime": "image/png",
+  "checksum": "223279b38408779cd62ffde410ba5a5082b9ab01f78855c1d483f78dfe4d64e8",
+  "bytes": 133817,
+  "timestamp": "2025-11-24T17:31:03.817Z"
+}

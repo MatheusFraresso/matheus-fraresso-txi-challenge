@@ -1,0 +1,11 @@
+{
+  "id": 14,
+  "name": "kakuna",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/014_kakuna.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/014_kakuna.webp",
+  "image_mime": "image/png",
+  "checksum": "75eb591f2c404af55a9b635445d04aa5366177a82b3b0668ec7f7dc7ab3febd2",
+  "bytes": 126542,
+  "timestamp": "2025-11-24T17:30:59.689Z"
+}

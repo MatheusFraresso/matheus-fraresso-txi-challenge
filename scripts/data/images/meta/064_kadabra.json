@@ -1,0 +1,11 @@
+{
+  "id": 64,
+  "name": "kadabra",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/064_kadabra.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/064_kadabra.webp",
+  "image_mime": "image/png",
+  "checksum": "831d284a281c0d61c1a30cbf9599a4cb34d3957f83d80ac1c5d37e4c93840c8b",
+  "bytes": 166555,
+  "timestamp": "2025-11-24T17:31:01.806Z"
+}

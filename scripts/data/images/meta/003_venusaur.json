@@ -1,0 +1,11 @@
+{
+  "id": 3,
+  "name": "venusaur",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/003_venusaur.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/003_venusaur.webp",
+  "image_mime": "image/png",
+  "checksum": "106d0040aa775f95871706c30ddd4abaef2c962215f5e8bd4141e0caef0ef8e4",
+  "bytes": 186011,
+  "timestamp": "2025-11-24T17:30:59.196Z"
+}

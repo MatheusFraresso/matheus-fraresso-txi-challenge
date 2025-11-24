@@ -1,0 +1,11 @@
+{
+  "id": 110,
+  "name": "weezing",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/110_weezing.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/110_weezing.webp",
+  "image_mime": "image/png",
+  "checksum": "2ea5a510c378b6fa2a0fe042bb2cb38ad13c0be17346fd3384acf46544cb9b34",
+  "bytes": 148228,
+  "timestamp": "2025-11-24T17:31:04.009Z"
+}

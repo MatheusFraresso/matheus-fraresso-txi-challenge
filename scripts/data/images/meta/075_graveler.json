@@ -1,0 +1,11 @@
+{
+  "id": 75,
+  "name": "graveler",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/075_graveler.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/075_graveler.webp",
+  "image_mime": "image/png",
+  "checksum": "7f5baf80e6e8b381ada946489ee39a58575a9b036865c1998636810e363b82e2",
+  "bytes": 101284,
+  "timestamp": "2025-11-24T17:31:02.263Z"
+}

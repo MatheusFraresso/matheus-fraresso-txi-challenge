@@ -1,0 +1,11 @@
+{
+  "id": 125,
+  "name": "electabuzz",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/125_electabuzz.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/125_electabuzz.webp",
+  "image_mime": "image/png",
+  "checksum": "47e0902fb2d49e6286f4878b0bfc67cc5eea4f07755fc65014087fd0656e3e12",
+  "bytes": 134434,
+  "timestamp": "2025-11-24T17:31:04.564Z"
+}

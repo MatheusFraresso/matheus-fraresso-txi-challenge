@@ -1,0 +1,11 @@
+{
+  "id": 43,
+  "name": "oddish",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/043_oddish.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/043_oddish.webp",
+  "image_mime": "image/png",
+  "checksum": "035edf8e0e79148c86ac89fada5b4b6ccd01f6dcbaf7a73b4f086e83d4502b7b",
+  "bytes": 134223,
+  "timestamp": "2025-11-24T17:31:00.884Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 41,
+  "name": "zubat",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/041_zubat.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/041_zubat.webp",
+  "image_mime": "image/png",
+  "checksum": "249cd65089f552f51c8da681bb13af267c01c99c2f9d70fdcb3415a82f7c6912",
+  "bytes": 107570,
+  "timestamp": "2025-11-24T17:31:00.956Z"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 92,
+  "name": "gastly",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/092_gastly.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/092_gastly.webp",
+  "image_mime": "image/png",
+  "checksum": "23c69f67ece1dd1724666a4bb94ebea14d53045c6f406faa2963db4f04bd5f4b",
+  "bytes": 176993,
+  "timestamp": "2025-11-24T17:31:03.211Z"
+}

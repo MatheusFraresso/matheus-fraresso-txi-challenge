@@ -1,0 +1,11 @@
+{
+  "id": 50,
+  "name": "diglett",
+  "source_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+  "saved_original": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/original/050_diglett.png",
+  "saved_thumb": "/home/matheusfraresso/code/matheus-fraresso-txi-challenge/scripts/data/images/thumbs/050_diglett.webp",
+  "image_mime": "image/png",
+  "checksum": "f7e2775b5ec38e79323bd045ce20045fc4cdd6c382eb83d1105c94e36332b7c1",
+  "bytes": 163664,
+  "timestamp": "2025-11-24T17:31:01.295Z"
+}
