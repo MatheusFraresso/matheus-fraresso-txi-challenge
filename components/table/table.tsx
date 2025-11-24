@@ -149,7 +149,7 @@ export default function Table<
             </div>
             <div className="flex space-x-2 justify-end items-end h-full w-[15%]">
               <button
-                className="text-primary-main border-primary-main hover:bg-orange-50 rounded-full px-6"
+                className="text-primary-main border-primary-main bg-orange-300 hover:bg-orange-400 rounded-full px-6 cursor-pointer"
                 type="reset"
                 onClick={() => {
                   const clearForm: any = {};
