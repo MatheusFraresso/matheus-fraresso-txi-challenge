@@ -17,10 +17,10 @@ function getValueByPath(obj: any, path?: string) {
 }
 
 /**
- * Componente de tabela paginada com suporte a filtros, seleção de linhas e paginação.
+ * Paginated table component with support for filters, row selection and pagination.
  *
- * @template T - Tipo dos itens exibidos na tabela.
- * @template U - Tipo dos filtros aplicáveis.
+ * @template T - Type of the items displayed in the table.
+ * @template U - Type of the applicable filters.
  *
  * @see TableProps
  *

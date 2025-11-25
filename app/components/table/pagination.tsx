@@ -50,7 +50,6 @@ export function Pagination({
   function updatePageRef(page: any) {
     if (!pageRef.current) return;
     pageRef.current.value = `${page}`;
-    // Voltei para o original por que o código abaixo quebrou a paginação, não mudava o por página
     formRef.current?.submit();
   }
 

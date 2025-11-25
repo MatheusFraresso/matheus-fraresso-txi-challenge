@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "prepare-and-run": "npm run download-images && npm run create-populate-db && npm run build && npm run start"
+    "prepare-and-run": "npm run create-populate-db && npm run build && npm run start"
   },
   "dependencies": {
     "axios": "^1.13.2",

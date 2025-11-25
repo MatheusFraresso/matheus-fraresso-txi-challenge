@@ -2,20 +2,20 @@ import Pagination from "@/contracts/pagination";
 import { ReactElement, ReactNode } from "react";
 
 /**
- * Obtém o valor de uma propriedade aninhada usando um caminho em string.
- * Exemplo: "user.name.first"
+ * Gets the value of a nested property using a string path.
+ * Example: "user.name.first"
  *
  * @example
- * getValueByPath({ user: { name: { first: "João" } } }, "user.name.first");
- * // → "João"
+ * getValueByPath({ user: { name: { first: "John" } } }, "user.name.first");
+ * // → "John"
  */
 export declare function getValueByPath(obj: any, path?: string): any;
 
 /**
- * Retorna as keys de um objeto, incluindo propriedades aninhadas até certo nível.
+ * Returns the keys of an object including nested properties up to a certain depth.
  *
- * @template T - Objeto base.
- * @template Depth - Nível máximo de profundidade permitido (default: 2).
+ * @template T - Base object.
+ * @template Depth - Maximum allowed depth (default: 2).
  *
  * @example
  * type A = { user: { name: string; address: { city: string } } };
@@ -32,32 +32,32 @@ export type NestedKeyOf<T extends object, Depth extends number = 2> = [
     }[keyof T & string];
 
 /**
- * Auxiliar interno que reduz o nível de profundidade em cada chamada recursiva.
+ * Internal helper that decrements the recursion depth on each recursive call.
  */
 type Decrement = [never, 0, 1, 2, 3, 4, 5];
 /**
- * Representa uma definição de coluna da tabela.
+ * Represents a table column definition.
  *
- * Você pode usar uma key direta do objeto (ex: `"name"`) ou uma função
- * de renderização para controlar o conteúdo da célula.
+ * You can use a direct key from the object (e.g. `"name"`) or a render
+ * function to control the cell content.
  *
- * @template T - Tipo do item de dados exibido na tabela.
+ * @template T - Type of the data item displayed in the table.
  *
  * @example
- * // Exemplo simples com keys diretas
+ * // Simple example with direct keys
  * const columns = [
- *   { label: "Nome", key: "name" },
+ *   { label: "Name", key: "name" },
  *   { label: "Email", key: "email" },
  * ];
  *
  * @example
- * // Exemplo com renderização personalizada
+ * // Example with custom rendering
  * const columns = [
  *   {
  *     label: "Status",
  *     callback: (user) => (
  *       <Badge color={user.active ? "green" : "red"}>
- *         {user.active ? "Ativo" : "Inativo"}
+ *         {user.active ? "Active" : "Inactive"}
  *       </Badge>
  *     ),
  *   },
@@ -65,126 +65,125 @@ type Decrement = [never, 0, 1, 2, 3, 4, 5];
  */
 export type ColumnDef<T extends object> =
   | {
-      /** Texto exibido no cabeçalho da coluna. */
+      /** Header text for the column. */
       label: string;
-      /** Caminho até a key do objeto (suporta acesso aninhado: "endereco.cidade"). */
+      /** Path to the object's key (supports nested access: "address.city"). */
       key: NestedKeyOf<T>;
     }
   | {
-      /** Texto exibido no cabeçalho da coluna. */
+      /** Header text for the column. */
       label: string;
-      /** Caminho até a key do objeto (opcional quando `callback` é usado). */
+      /** Path to the object's key (optional when `callback` is used). */
       key?: NestedKeyOf<T>;
-      /** Função de renderização customizada para esta coluna. */
+      /** Custom render function for this column. */
       callback: (item: T) => ReactNode;
     }
   | {
-      /** Texto exibido no cabeçalho da coluna. */
+      /** Header text for the column. */
       label: string;
-      /** Caminho até a key do objeto (opcional quando `callback` é usado). */
+      /** Path to the object's key (optional when `callback` is used). */
       key?: NestedKeyOf<T>;
-      /** Função de renderização customizada para esta coluna. */
+      /** Custom renderer element for this column. */
       renderer: Element;
     };
 
 /**
- * Define um filtro exibido acima da tabela.
+ * Defines a filter displayed above the table.
  *
- * O componente cria automaticamente os inputs de filtro
- * com base nesta estrutura.
+ * The component automatically creates filter inputs based on this structure.
  *
- * @template U - Tipo do objeto de filtros (ex: `{ nome: string; status: string }`)
+ * @template U - Type of the filters object (e.g. `{ name: string; status: string }`)
  *
  * @example
  * const filters = [
- *   { type: "text", name: "nome", label: "Nome", placeholder: "Buscar por nome" },
+ *   { type: "text", name: "name", label: "Name", placeholder: "Search by name" },
  *   {
  *     type: "select",
  *     name: "status",
  *     label: "Status",
  *     options: [
- *       { value: "active", label: "Ativo" },
- *       { value: "inactive", label: "Inativo" },
+ *       { value: "active", label: "Active" },
+ *       { value: "inactive", label: "Inactive" },
  *     ],
  *   },
  * ];
  */
 export type TableFilter<U> =
   | {
-      /** Campo de texto livre. */
+      /** Free text input. */
       type: "text";
       placeholder?: string;
       name: keyof U;
       label: string;
     }
   | {
-      /** Campo de seleção (dropdown). */
+      /** Select (dropdown) input. */
       type: "select";
       placeholder?: string;
       name: keyof U;
       label: string;
-      /** Opções disponíveis para o select. */
+      /** Options available for the select. */
       options: { value: string; label: string }[];
     };
 
 /**
- * Propriedades comuns compartilhadas por todas as variantes da tabela.
+ * Common props shared by all table variants.
  *
- * @template T - Tipo dos dados exibidos.
- * @template U - Tipo dos filtros aplicáveis.
+ * @template T - Type of the displayed data.
+ * @template U - Type of the applicable filters.
  */
 export type CommonTableProps<
   T extends object,
   U extends Record<string, any>
 > = {
-  /** Lista de colunas a serem exibidas. */
+  /** Columns to display. */
   columnsDataMap: ColumnDef<T>[];
 
-  /** Lista de filtros a exibir acima da tabela. */
+  /** Filters to display above the table. */
   filters?: TableFilter<U>[];
 
-  /** Adiciona campo de busca geral (por texto livre). */
+  /** Adds a general search field (free text). */
   hasSearchTerm?: boolean;
 
-  /** Componente renderizado acima da tabela (ex: título ou breadcrumbs). */
+  /** Component rendered above the table (e.g. title or breadcrumbs). */
   headerComponent?: ReactNode;
 
-  /** Componente renderizado entre filtros e tabela (ex: resumo de totais). */
+  /** Component rendered between filters and table (e.g. summary or totals). */
   aditionalInfoComponent?: ReactNode;
 
-  /** Ações principais (ex: botões de adicionar, exportar, etc). */
+  /** Main actions (e.g. add, export buttons). */
   actionsComponent?: ReactNode;
 
-  /** Componente renderizado após a tabela (ex: rodapé com totais). */
+  /** Component rendered after the table (e.g. footer with totals). */
   footerComponent?: ReactNode;
 
-  /** Componente(s) filho(s) opcionais. */
+  /** Optional child component(s). */
   children?: ReactNode;
 
-  /** Exibe estado de carregamento (mostra spinner e bloqueia interação). */
+  /** Shows loading state (spinner and interaction lock). */
   isLoading?: boolean;
 
-  /** Ações exibidas por linha (ex: editar, excluir, visualizar). */
+  /** Row actions (e.g. edit, delete, view). */
   rowActions?: (item: T) => ReactNode;
 
-  /** Informações adicionais exibidas por linha (ex: ícone de status). */
+  /** Additional info per row (e.g. status icon). */
   rowInfo?: (item: T) => ReactNode;
 
-  /** Evento disparado ao alterar qualquer campo do formulário de filtro. */
+  /** Triggered when any field in the filter form changes. */
   onFormChange?: (event: any) => void;
 
-  /** Evento disparado ao enviar o formulário de filtros. */
+  /** Triggered when the filters form is submitted. */
   onFormSubmit?: (event: any) => void;
 
-  /** Função executada ao clicar em “Limpar filtros”. */
+  /** Function executed when clicking "Clear filters". */
   clearFilters?: () => void;
 };
 
 /**
- * Propriedades comuns compartilhadas por todas as variantes da tabela.
+ * Pagination-aware table props union.
  *
- * @template T - Tipo dos dados exibidos.
- * @template U - Tipo dos filtros aplicáveis.
+ * @template T - Type of the displayed data.
+ * @template U - Type of the applicable filters.
  */
 export type CheckPaginationType<
   T extends object,
@@ -192,7 +191,7 @@ export type CheckPaginationType<
 > =
   | ({
       isPaginated?: true | undefined;
-      /** Objeto de paginação contendo `data`, `total`, `page`, etc. */
+      /** Pagination object containing `data`, `total`, `page`, etc. */
       data: Pagination<T>;
     } & CommonTableProps<T, U>)
   | ({
@@ -201,35 +200,35 @@ export type CheckPaginationType<
     } & CommonTableProps<T, U>);
 
 /**
- * Propriedades do componente de tabela paginada.
+ * Props for the paginated table component.
  *
  * @remarks
- * - Se `selectable` for `true`, o componente renderiza checkboxes e exige funções
- *   para controle de seleção.
- * - Caso contrário, a tabela funciona apenas como leitura.
+ * - If `selectable` is `true`, the component renders checkboxes and requires
+ *   selection control functions.
+ * - Otherwise, the table works as a read-only display.
  *
- * @template T - Tipo dos dados exibidos.
- * @template U - Tipo dos filtros aplicáveis.
+ * @template T - Type of the displayed data.
+ * @template U - Type of the applicable filters.
  */
 export type TableProps<
   T extends object,
   U extends Record<string, any> = Record<string, any>
 > =
   | ({
-      /** Ativa a seleção de múltiplas linhas. */
+      /** Enables multi-row selection. */
       selectable: true;
 
-      /** Mapa de itens selecionados (index → item). */
+      /** Map of selected items (index → item). */
       selectedItems: Map<number, T>;
 
-      /** Função chamada ao marcar/desmarcar um item individual. */
+      /** Called when toggling an individual item's selection. */
       handleSelectItem: (item: T, index: number) => void;
 
-      /** Função chamada ao marcar/desmarcar todos os itens. */
+      /** Called when toggling select-all. */
       handleSelectAll: (selected: boolean) => void;
     } & CheckPaginationType<T, U>)
   | ({
-      /** Se omitido ou falso, desativa seleção de linhas. */
+      /** If omitted or false, disables row selection. */
       selectable?: false;
       selectedItems?: never;
       handleSelectItem?: never;
@@ -237,7 +236,7 @@ export type TableProps<
     } & CheckPaginationType<T, U>);
 
 /**
- * Props do componente de paginação usado dentro da tabela.
+ * Props for the Pagination component used inside the table.
  *
  * @example
  * ```tsx
@@ -260,7 +259,7 @@ export interface PaginationProps {
   previousPage: number;
   total: number;
   totalPages: number;
-  /** Referência ao formulário principal para submissão automática. */
+  /** Reference to the main form for automatic submission. */
   formRef: React.RefObject<HTMLFormElement | null>;
   handleNext?: () => void;
   handlePrev?: () => void;
@@ -268,12 +267,12 @@ export interface PaginationProps {
 }
 
 /**
- * Exemplo completo de uso do `Table`.
+ * Full example usage of `Table`.
  *
  * @example
  * ```tsx
  * const pagination = {
- *   data: clientes,
+ *   data: clients,
  *   total: 100,
  *   totalPages: 10,
  *   page: 1,
@@ -283,27 +282,27 @@ export interface PaginationProps {
  * };
  *
  * const columns = [
- *   { label: "Nome", key: "nome" },
+ *   { label: "Name", key: "name" },
  *   { label: "Email", key: "email" },
  *   {
  *     label: "Status",
- *     callback: (cliente) => (
- *       <span className={cliente.ativo ? "text-green-600" : "text-red-500"}>
- *         {cliente.ativo ? "Ativo" : "Inativo"}
+ *     callback: (client) => (
+ *       <span className={client.active ? "text-green-600" : "text-red-500"}>
+ *         {client.active ? "Active" : "Inactive"}
  *       </span>
  *     ),
  *   },
  * ];
  *
  * const filters = [
- *   { type: "text", name: "nome", label: "Nome" },
+ *   { type: "text", name: "name", label: "Name" },
  *   {
  *     type: "select",
  *     name: "status",
  *     label: "Status",
  *     options: [
- *       { value: "active", label: "Ativo" },
- *       { value: "inactive", label: "Inativo" },
+ *       { value: "active", label: "Active" },
+ *       { value: "inactive", label: "Inactive" },
  *     ],
  *   },
  * ];
@@ -317,7 +316,7 @@ export interface PaginationProps {
  *   selectedItems={selected}
  *   handleSelectItem={handleSelectItem}
  *   handleSelectAll={handleSelectAll}
- *   rowActions={(c) => <Button onClick={() => editarCliente(c)}>Editar</Button>}
+ *   rowActions={(c) => <Button onClick={() => editClient(c)}>Edit</Button>}
  * />;
  * ```
  */
