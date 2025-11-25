@@ -45,3 +45,11 @@ The application was built with Next.js and sqlite, and the fetchApi was used to 
 ### FetchAPI
 
 > FetchAPI was chosen since the project would not benefit of more complex http libraries, but specially because fetch seamlessly integrates with Next cache system, having it's request cached automaticly
+
+## AI agents
+
+Chat GPT 5.1 was used to help implement this project specially helping with architecture decisions and the local database part of the project. The full conversation can be seen here https://chatgpt.com/share/6923e9cc-aa28-8006-bf5c-d176f514430a
+
+## GIT
+
+The project is publicly availabe on the link https://github.com/MatheusFraresso/matheus-fraresso-txi-challenge
